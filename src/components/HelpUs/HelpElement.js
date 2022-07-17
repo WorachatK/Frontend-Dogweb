@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const HelpUsContainer = styled.div`
     height: 85vh;
+
+    @media (max-width: 800px){
+        height: auto;
+    }
 `
 export const HelpUsWrap = styled.div`
     height: 100%;
@@ -28,7 +32,10 @@ export const HelpUsParent = styled.div`
 
     @media (max-width: 800px){
         grid-template-columns: repeat(3,1fr);
+    }
 
+    @media (max-width: 480px){
+        grid-template-columns: repeat(2,1fr);
     }
 `
 export const HelpUsGrid = styled.div`

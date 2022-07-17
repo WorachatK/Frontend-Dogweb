@@ -4,6 +4,10 @@ export const OurpetContainer = styled.div`
     background-color: #fff0da;
     height: 100vh;
     width: 100%;
+
+    @media (max-width: 800px) {
+        height: auto;
+    }
 `
 export const OurpetWrap =styled.div`
     display: flex;
