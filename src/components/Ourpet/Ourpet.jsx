@@ -13,9 +13,9 @@ const Ourpet = () => {
 
     const handleClick = (direction) =>{
         if(direction==="left"){
-            setSlideInddex(slideIndex > -3 ? slideIndex-1 : 3)
+            setSlideInddex(slideIndex > -5 ? slideIndex-1 : 5)
         } else {
-            setSlideInddex(slideIndex < 3 ? slideIndex +1 : -3)
+            setSlideInddex(slideIndex < 5 ? slideIndex +1 : -5)
         }
     }
   return (

@@ -5,6 +5,10 @@ import Dog4 from '../image/dog6.png'
 import Dog5 from '../image/dog7.png'
 import Dog6 from '../image/dog10.png'
 import Dog7 from '../image/dog9.png'
+import Dog8 from '../image/dog11.png'
+import Dog9 from '../image/dog12.png'
+import Dog10 from '../image/dog13.png'
+import Dog11 from '../image/dog14.png'
 
 import SportsBaseballIcon from '@mui/icons-material/SportsBaseball';
 import ColorizeIcon from '@mui/icons-material/Colorize';
@@ -21,6 +25,10 @@ export const dog1 = [
     {name: 'Haley',img: Dog2},
     {name: 'Samiyah',img: Dog3},
     {name: 'Mikaeel',img: Dog4},
+    {name: 'Cristofer',img: Dog8},
+    {name: 'Nomsod',img: Dog9},
+    {name: 'Porkchop',img: Dog10},
+    {name: 'TenderMeat',img: Dog11},
     {name: 'Alyssia',img: Dog5},
     {name: 'Garry',img: Dog6},
     {name: 'Mustafa',img: Dog7},
